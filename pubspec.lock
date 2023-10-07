@@ -18,7 +18,7 @@ packages:
     source: hosted
     version: "2.11.0"
   bloc:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: bloc
       sha256: "3820f15f502372d979121de1f6b97bfcf1630ebff8fe1d52fb2b0bfa49be5b49"
@@ -232,6 +232,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+  navigator:
+    dependency: "direct main"
+    description:
+      name: navigator
+      sha256: fdbeb63fa4c0a05801f16d091c7e8e8348b1d730aa0afe46ab42c5cf1e6d1069
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.1"
   nested:
     dependency: transitive
     description:
