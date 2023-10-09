@@ -24,8 +24,14 @@ class _LoginScreenState extends State<LoginScreen> {
       body: Container(
         padding: EdgeInsets.all(20),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.end,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
+
+            TextCompo(text: 'LOG IN',textSize: 50,textColor: Colors.blue, ),
+SizedBox(height: 40,),
+
+
+
             InputFieldComponent(
               paddingHorizontal: 10,
               paddingVertical: 5,
